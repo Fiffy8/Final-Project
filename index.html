@@ -46,6 +46,7 @@
         font-family: "Spectral SC", serif;
         font-weight: 400;
         font-style: normal;
+        margin-left: 5px
       }
 
       #nav li {
@@ -73,47 +74,32 @@
         color: black;
       }
 
-      #Portfolio h1 {
-        display: inline-block;
-        font-family: "bd-retrocentric", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        position: relative;
-        padding-top: 200;
-        font-size: 115;
-      }
+      #Portfolio {
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+}
 
-      #Portfolio p {
-        display: inline;
-        font-family: "bd-retrocentric", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        position: relative;
-        margin-top: 150;
-        font-size: 115;
+#Portfolio p.initial, #Portfolio h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 250px; 
+  font-family: "Tangerine", cursive;
+  color: white;
+}
 
-      }
+#Portfolio h1 {
+  font-size: 115px;
+  font-family: "bd-retrocentric", sans-serif;
+  color: black;
+}
 
-      #Portfolio p.initial {
-        font-family: "Tangerine", cursive;
-        font-weight: 700;
-        font-style: normal;
-        color: white;
-        font-size: 250;
-        
-      }
+#Portfolio p.name {
+  font-size: 20px;
+  font-family: "Spectral SC", serif;
+  color: white;
+}
 
-      #Portfolio p.name {
-        float: right;
-        display: inline-block;
-        font-family: "Spectral SC", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: white;
-        font-size: 20px;
-        margin-top: -100px;
-        padding-right: 95px;
-      }
 
       /*Code copied from: [https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_circle]
   Author: [W3schools]
@@ -121,16 +107,17 @@
   Description: [CSS styling of a circle]
   Date retrieved: [December 6th, 2024]*/
 
-      /*.circle1 {
+      .circle1 {
         position: relative;
         height: 220px;
         width: 220px;
         background-color: transparent;
         border: 2px solid white;
         border-radius: 50%;
-
+        margin-top: -470;
+          margin-left: -50
       }
-
+/*
       .circle2 {
         position: relative;
         height: 150px;
