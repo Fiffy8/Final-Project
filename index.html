@@ -4,21 +4,62 @@
     <meta charset="UTF-8">
     <title>Fiffy's Portfolio</title>
     <style>
-      #section1, #section2 {
-        height: 1080px;
+      body {
+        background-color: #837AB6;
+        background-image: linear-gradient(90deg, #837AB6 , #CC8DB3);
       }
       
-      #section1 {
-        background-color: #fefae0
+      #header {
+        background-color: 837AB6;
+        height: 80px;
+        padding: 0;
+        margin: 0;
       }
+      
+      #nav ul {
+      position: relative;
+      top: 30px; /* Moves the nav down */
+      text-align: center; /* Centers the list items horizontally */
+    }
+      
+      #nav li {
+        list-style: none;
+        display: inline;
+        margin-top: 50px;
+        margin-right: 25px;
+        padding: 5px 20px;
+        border: 1px solid white;
+        border-radius: 30px;
+      }
+      
+      #nav li.contact {
+        background-color: #250E2C;
+        border: none;
+      }
+      #nav a:link {
+        display: inline;
+        text-decoration: none;
+        color: white;
+        font-size: 15;
+        
+      }
+      
+      
     </style>
   </head>
   
   
   <body>
-    <a href="#section1">Home</a>
-    <a href="#section2">About Me</a>
-    <div id="section1"></div>
-    <div id="section2"></div>
+    <div id="header">
+    <div id="nav">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">ABOUT ME</a></li>
+            <li><a href="/">RESUME</a></li>
+            <li><a href="/">PROJECTS</a></li>
+             <li class="contact"><a href="/">CONTACT</a></li>
+          </ul>
+        </div>
+    </div>
   </body>
 </html>
